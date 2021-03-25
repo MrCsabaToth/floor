@@ -17,7 +17,9 @@ dependencies:
   code_builder: ^3.7.0
   collection: ^1.15.0
   floor_annotation:
-    path: ../floor_annotation/
+    git:
+      url: https://github.com/MrCsabaToth/floor.git
+      path: floor_annotation
   meta: ^1.3.0
   source_gen: ^1.0.0
 
